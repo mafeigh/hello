@@ -1,0 +1,33 @@
+
+登录方法，在调用后不做业务判断
+public LoginResponse loginNew(LoginRequest loginRequest)
+
+
+登录方法，返回后会判断返回对象的一些返回值做业务封装
+public ReturnResponse login(LoginRequest loginRequest)
+
+
+划转货款方法
+public ReturnResponse transformGoodFund(TransformGoodFundRequest transformGoodFundRequest)
+
+
+退还货款
+public ReturnResponse returnGoodFund(ReturnGoodFundRequest returnGoodFundRequest)
+
+
+扣除手续费
+public ReturnResponse deductHandingFee(DeductHandingFeeRequest deductHandingFeeRequest)
+
+
+扣除货款方法
+public ReturnResponse deductGoodFund(DeductGoodFundRequest deductGoodFundRequest)
+
+
+获取配货信息
+public GetAssignNumConjoinRecelptResponse[] getAssignNumConjoinRecelpt(
+			GetAssignNumConjoinRecelptRequest getAssignNumConjoinRecelptRequest) 
+			
+			
+退还手续费			
+public ReturnResponse returnHandingFee(ReturnHandingFeeRequest returnHandingFeeRequest)
+
